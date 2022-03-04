@@ -1,6 +1,6 @@
 // MQTT publisher
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://localhost:1883')
+var client = mqtt.connect('mqtt://localhost:1883', {username:'admin',password:'admin'})
 var topic = 'Tmob'
 var message = '1'
 
