@@ -1,7 +1,7 @@
 // MQTT broker
 var mosca = require('mosca')
 var settings = {
-    port: 1883,
+    port: 8883,
     secure: {
         keyPath: "./privkey.pem",
         certPath: "./cert.pem"
