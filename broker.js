@@ -2,7 +2,7 @@
 var mosca = require('mosca')
 var SECURE_KEY = 'secure/privkey.pem';
 var SECURE_CERT = 'secure/cert.pem';
-var settings = {port: 1883,
+var settings = {port: 8883,
     logger: {
       name: "secureExample",
       level: 40,
