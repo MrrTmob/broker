@@ -3,15 +3,15 @@ var mosca = require('mosca')
 var SECURE_KEY = 'secure/privkey.pem';
 var SECURE_CERT = 'secure/cert.pem';
 var settings = {port: 1883,
-    logger: {
-      name: "Lambda",
-      level: 40,
-    },
-    secure : {
-      port: 8443,
-      keyPath: SECURE_KEY,
-      certPath: SECURE_CERT,
-    }
+    // logger: {
+    //   name: "Lambda",
+    //   level: 40,
+    // },
+    // secure : {
+    //   port: 8443,
+    //   keyPath: SECURE_KEY,
+    //   certPath: SECURE_CERT,
+    // }
   };
 var broker = new mosca.Server(settings)
 
