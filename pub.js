@@ -1,6 +1,7 @@
 // MQTT publisher
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://localhost:1883', {username:'admin',password:'admin'})
+var client = mqtt.connect('mqtts://mosquitto.d2a.link',{port:8883})
+// console.log(client)
 var topic = 'Tmob'
 var message = '1'
 
