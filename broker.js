@@ -3,10 +3,10 @@ var mosca = require('mosca')
 var SECURE_KEY = 'secure/privkey.pem';
 var SECURE_CERT = 'secure/cert.pem';
 var settings = {port: 8883,
-    logger: {
-      name: "secureExample",
-      level: 40,
-    },
+    // logger: {
+    //   name: "Lambda",
+    //   level: 40,
+    // },
     secure : {
       port: 8443,
       keyPath: SECURE_KEY,
