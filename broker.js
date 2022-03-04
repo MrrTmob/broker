@@ -8,7 +8,7 @@ var settings = {port: 1883,
       level: 40,
     },
     secure : {
-      port: 8443,
+      port: 8883,
       keyPath: SECURE_KEY,
       certPath: SECURE_CERT,
     }
