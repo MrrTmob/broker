@@ -9,7 +9,7 @@ var settings = {port: 1883,
     },
     secure : {
       port: 8443,
-      // keyPath: SECURE_KEY,
+      keyPath: SECURE_KEY,
       certPath: SECURE_CERT,
     }
   };
