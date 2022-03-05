@@ -1,6 +1,6 @@
 // MQTT publisher
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtts://mosquitto.d2a.link:8443')
+var client = mqtt.connect('mqtt://tmob.d2a.link:1883')
 //console.log(client)
 var topic = 'Tmob'
 var message = '1'
